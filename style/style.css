@@ -132,7 +132,7 @@ main{
     padding: 5px;
     padding-left: 10px;
     margin-bottom: 20px;
-    color: black;
+    color: white;
 }
 .variosSection{
     display: flex;
@@ -160,7 +160,7 @@ main{
     background-color: var(--colorCinco);
     margin-bottom: 25px;
     padding-bottom: 0;
-    color: black;
+    color: white;
 }
 .varios img{
     height: 90%;
@@ -193,7 +193,7 @@ footer{
 }
 .cambioIdioma{
     background-color: var(--colorCinco);
-    color: black;
+    color: white;
     margin-left: 10px;
     padding: 10px 7px;
 }
