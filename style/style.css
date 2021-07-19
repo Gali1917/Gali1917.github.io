@@ -1,5 +1,10 @@
 :root{
     --border: 5px;
+    --colorUno: #FF47A5;
+    --colorDos: #B33B78;
+    --colorTres: #FFEC61;
+    --colorCuatro: #FF6666;
+    --colorCinco: #7AF0FF;    
 }
 *{
     box-sizing: border-box;
@@ -11,7 +16,7 @@ html{
 }
 body{
     font-family: Oswald sans-serif;
-    background-color: #FF47A5;
+    background-color: var(--colorUno);
     color: white;
     font-size: 1.6rem;
 }
@@ -23,7 +28,7 @@ main{
     position: fixed;
     width: 100vw;
     height: 65px;
-    background-color: #B33B78;
+    background-color: var(--colorDos);
 }
 .headerHeader img{
     height: 40px;
@@ -55,7 +60,7 @@ main{
 .portada img{
     width: 100%;
     max-width: 800px;
-    border: 5px solid #FFEC61;
+    border: 5px solid var(--colorTres);
 
 }
 .precioDescuento{
@@ -67,16 +72,16 @@ main{
 }
 .botonPrecio{
     font-family: Oswald;
-    background-color: #B33B78;
+    background-color: var(--colorDos);
     color: white;
     font-size: 1.6rem;
     padding: 2px;
     border-radius: var(--border);
     width: 100%; 
-    border: 1px solid #FFEC61;
+    border: 1px solid var(--colorTres);
 }
 .descuento{
-    background-color: #FF6666;
+    background-color: var(--colorCuatro);
     text-align: justify;
     font-size: 1.5rem;
     padding: 6px 5px;
@@ -98,7 +103,7 @@ main{
 .verMas{
     right: 20px;
     padding: 10px;
-    background-color: #B33B78;
+    background-color: var(--colorDos);
     border-radius: var(--border);
     border: 1px;
     color: white;
@@ -114,7 +119,7 @@ main{
     width: 47vw;
     margin: 10px 0 10px 0;
     border-radius: var(--border);
-    background-color: #7AF0FF;
+    background-color: var(--colorCinco);
 }
 .imgCamisetas img{
     width: 100%;
@@ -149,10 +154,10 @@ main{
     justify-content: flex-start;
     height: 200px;
     width: 100%;
-    border-top: 2px solid #FFEC61;
-    border-bottom: 2px solid #FFEC61;
+    border-top: 2px solid var(--colorTres);
+    border-bottom: 2px solid var(--colorTres);
     padding: 10px;
-    background-color: #7AF0FF;
+    background-color: var(--colorCinco);
     margin-bottom: 25px;
     padding-bottom: 0;
     color: black;
@@ -169,7 +174,7 @@ main{
 }
 footer{
     width: 100%;
-    background-color: #B33B78;
+    background-color: var(--colorDos);
     color: white;
 }
 .links{
@@ -187,14 +192,14 @@ footer{
     align-items: center;
 }
 .cambioIdioma{
-    background-color: #7AF0FF;
+    background-color: var(--colorCinco);
     color: black;
     margin-left: 10px;
     padding: 10px 7px;
 }
 .siguenos{
-    border-top: 2px solid #7AF0FF;
-    border-bottom: 2px solid #7AF0FF;
+    border-top: 2px solid var(--colorCinco);
+    border-bottom: 2px solid var(--colorCinco);
 }
 .redes{
     display: flex;
@@ -221,7 +226,7 @@ footer{
     width: 50%;
 }
 .botonRed{
-    background-color: #FFEC61;
+    background-color: var(--colorTres);
     border: 0;
     padding: 10px;
     color: black;
