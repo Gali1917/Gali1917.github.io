@@ -7,9 +7,11 @@
     <meta name="robot" content="index, follow">
     <meta name="description" content="Consigue las mejores camisetas del pais. Diseñadas a tu gusto.">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/medium.css" media="(min-width: 750px)">
+    <link rel="stylesheet" href="./style/large.css" media="(min-width: 1000px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>SofiBaut</title>
 </head>
 <body>
@@ -18,9 +20,14 @@
         <div><img src="./images/logo.jpg" alt="Logo SofiBaut" class="logo"></div>
         <div><img src="./images/carritoCompras.png" alt="Carrito de compras" class="carrito" height="30px"></div>
     </header>
+    <div class="panelIsquierdo">
+    </div>
     <main>
         <section class="portada">
-            <img src="./images/portadaSmall.jpg" alt="Portada">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="./images/portada.jpg">
+                <img src="./images/portadaSmall.jpg" alt="Portada">
+            </picture>
         </section>
         <section class="hombres">
             <header>
@@ -124,7 +131,7 @@
                     </ul>
                 </section>
         </section>
-        <section class="hombres">
+        <section class="ultima">
             <header>
                 <div class="divVarios">
                     <h2 class="textVarios">Varios</h2>
@@ -196,6 +203,7 @@
                 </section>
         </section>
     </main>
+    <div class="panelDerecho"></div>
     <footer>
         <div>
             <ul class="links">

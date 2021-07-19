@@ -1,0 +1,13 @@
+.imgCamisetas li{
+    width: 15vw;
+}
+body{
+    margin-top: 50px;
+    max-width: 70vw;
+    margin-left: 15vw;
+}
+.headerHeader{
+    margin-left: -15vw;
+    margin-top: -50px;
+}
+

@@ -134,6 +134,22 @@ main{
     margin-bottom: 20px;
     color: white;
 }
+.ultima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.ultima h2{
+    margin-top: 5px;
+}
+.ultima header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+}
 .variosSection{
     display: flex;
     justify-content: center;
@@ -170,7 +186,12 @@ main{
 }
 .nombreCamisetasVarias{
     height: min-content;
-    padding-left: 15px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.precioVarios{
+    margin-top: 10px;
+    width: 120px;
 }
 footer{
     width: 100%;
