@@ -197,3 +197,13 @@ footer{
     color: white;
     width: 100%;
 }
+.logoInferior{
+    display: flex;
+    flex-direction: row-reverse;    
+    justify-content: flex-start;
+    height: 30px;
+    margin-right: 5px;
+}
+.logoInferior p{
+    padding: 6px;
+}
