@@ -1,10 +1,10 @@
 :root{
     --border: 5px;
-    --colorUno: #FF47A5;
-    --colorDos: #B33B78;
+    --colorUno: #85002B;
+    --colorDos: #5E0023;
     --colorTres: #FFEC61;
     --colorCuatro: #FF6666;
-    --colorCinco: #7AF0FF;    
+    --colorCinco: #003C4C;    
 }
 *{
     box-sizing: border-box;
