@@ -1,0 +1,199 @@
+:root{
+    --border: 5px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Oswald sans-serif;
+    background-color: #FF47A5;
+    color: white;
+    font-size: 1.6rem;
+}
+main{
+    padding-top: 65px;
+
+}
+.headerHeader{
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+    background-color: #B33B78;
+}
+.headerHeader img{
+    height: 40px;
+}
+.logo{
+    position: absolute;
+    top: 11px;
+    left: 60px;
+}
+.menu{
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+.carrito{
+    position: absolute;
+    top: 17px;
+    right: 30px;
+}
+.headerHeader .carrito{
+    height: 30px;
+}
+.portada{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.portada img{
+    width: 100%;
+    max-width: 800px;
+    border: 5px solid #FFEC61;
+
+}
+.precioDescuento{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: flex-end;
+    width: 100%;
+    padding: 0 6px 6px;
+}
+.botonPrecio{
+    font-family: Oswald;
+    background-color: #B33B78;
+    color: white;
+    font-size: 1.6rem;
+    padding: 2px;
+    border-radius: var(--border);
+    width: 100%; 
+    border: 1px solid #FFEC61;
+}
+.descuento{
+    background-color: #FF6666;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 6px 5px;
+    margin-right: 5px;
+    border-radius: var(--border);
+}
+.hombres{
+    width: 100%;
+}
+.hombres h2{
+    margin-top: 5px;
+}
+.hombres header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.verMas{
+    right: 20px;
+    padding: 10px;
+    background-color: #B33B78;
+    border-radius: var(--border);
+    border: 1px;
+    color: white;
+}
+.imgCamisetas{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imgCamisetas li{
+    list-style: none;
+    width: 47vw;
+    margin: 10px 0 10px 0;
+    border-radius: var(--border);
+    background-color: #7AF0FF;
+}
+.imgCamisetas img{
+    width: 100%;
+    border-top-left-radius: var(--border);
+    border-top-right-radius: var(--border);
+}
+
+.nombre{
+    display: flex;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+.varios li{
+    display: inline-block;
+}
+.nombreVarios{
+    height: 50px;
+
+}
+
+footer{
+    width: 100%;
+    background-color: #010611;
+    color: #9CA8B7;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.links li{
+    margin: 10px;
+    list-style: none;
+}
+.idioma{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    align-items: center;
+}
+.cambioIdioma{
+    background-color: #010611;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 7px;
+}
+.siguenos{
+    border-top: 2px solid #263241;
+    border-bottom: 2px solid #263241;
+    padding: 10px
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.h2{
+    width: 100vw;
+    text-align: center;
+    height: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+}
+.siguenos li{
+    list-style: none;
+    color: white;
+    margin: 5px;
+}
+.facebook{
+    width: 100vw;
+}
+/* .twitter, .instagram{
+    width: auto;
+} */
+.botonRed{
+    background-color: #263241;
+    border: 0;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
