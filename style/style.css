@@ -129,18 +129,48 @@ main{
     margin-bottom: 20px;
     color: black;
 }
+.variosSection{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.varios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100vw;
+    margin-top: 10px;
+}
 .varios li{
-    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    height: 200px;
+    width: 100%;
+    border-top: 2px solid #FFEC61;
+    border-bottom: 2px solid #FFEC61;
+    padding: 10px;
+    background-color: #7AF0FF;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    color: black;
+}
+.varios img{
+    height: 90%;
 }
 .nombreVarios{
-    height: 50px;
-
+    height: 100%;
 }
-
+.nombreCamisetasVarias{
+    height: min-content;
+    padding-left: 15px;
+}
 footer{
     width: 100%;
-    background-color: #010611;
-    color: #9CA8B7;
+    background-color: #B33B78;
+    color: white;
 }
 .links{
     display: flex;
@@ -157,25 +187,27 @@ footer{
     align-items: center;
 }
 .cambioIdioma{
-    background-color: #010611;
-    color: white;
+    background-color: #7AF0FF;
+    color: black;
     margin-left: 10px;
     padding: 10px 7px;
 }
 .siguenos{
-    border-top: 2px solid #263241;
-    border-bottom: 2px solid #263241;
-    padding: 10px
+    border-top: 2px solid #7AF0FF;
+    border-bottom: 2px solid #7AF0FF;
 }
 .redes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    width: 100%;
+}
+.redes li{
+    width: 47vw;
 }
 .h2{
     width: 100vw;
     text-align: center;
-    height: 10px;
     padding-bottom: 10px;
     height: 30px;
 }
@@ -184,17 +216,15 @@ footer{
     color: white;
     margin: 5px;
 }
-.facebook{
-    width: 100vw;
+
+.whatsapp, .instagram{
+    width: 50%;
 }
-/* .twitter, .instagram{
-    width: auto;
-} */
 .botonRed{
-    background-color: #263241;
+    background-color: #FFEC61;
     border: 0;
     padding: 10px;
-    color: white;
+    color: black;
     width: 100%;
 }
 .logoInferior{
