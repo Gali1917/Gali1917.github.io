@@ -237,3 +237,6 @@ footer{
 .logoInferior p{
     padding: 6px;
 }
+.logoInferior img{
+    height: 30px;
+}
