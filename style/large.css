@@ -10,4 +10,10 @@ body{
     margin-left: -15vw;
     margin-top: -50px;
 }
-
+.footer{
+    width: 141%;
+    margin-left: -15vw;
+}
+.redes li{
+    width: 25vw;
+}
