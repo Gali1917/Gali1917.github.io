@@ -10,3 +10,10 @@ body{
     width: 250px;
     font-size: 2rem;
 }
+.redes{
+    flex-direction: column;
+    align-content: center;
+}
+.redes li{
+    max-width: 50vw;
+}

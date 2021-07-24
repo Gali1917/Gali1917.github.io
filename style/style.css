@@ -226,13 +226,13 @@ main{
     flex-wrap: wrap;
 }
 .links li{
-    margin: 10px;
+    margin: 5px;
     list-style: none;
 }
 .idioma{
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 5px;
     align-items: center;
 }
 .cambioIdioma{
