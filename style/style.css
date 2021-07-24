@@ -20,10 +20,10 @@ body{
     background-color: var(--fondo);
     color: white;
     font-size: 1.6rem;
+    width: 100vw;
 }
 main{
-    padding-top: 65px;
-
+    padding-top: 65px;;
 }
 .headerHeader{
     position: fixed;
@@ -213,7 +213,7 @@ main{
     margin-top: 10px;
     width: 120px;
 }
-footer{
+.footer{
     width: 100%;
     background-color: var(--colorDos);
     color: white;
@@ -285,4 +285,16 @@ footer{
 }
 .logoInferior img{
     height: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--colorDos);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: var(--colorTres);
 }
