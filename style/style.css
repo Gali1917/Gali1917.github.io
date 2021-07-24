@@ -32,6 +32,7 @@ main{
     width: 100%;
     height: 65px;
     background-color: var(--colorDos);
+    box-shadow: 2px 4px 20px black;
 }
 .headerHeader img{
     height: 40px;
@@ -46,18 +47,13 @@ main{
     top: 11px;
     left: 10px;
 }
-.carrito{
-    position: absolute;
-    top: 17px;
-    right: 30px;
-}
+
 .sendDesign{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100%;
     margin-right: 10px;
-    
 }
 .sendDesign input{
     height: 40px;
@@ -66,6 +62,9 @@ main{
     background-color: #FEF993;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+}
+#design:hover{
+    box-shadow: 5px 0px 10px 3px black;
 }
 input[type=submit]{
     font-family: 'Satisfy', cursive;
@@ -263,6 +262,7 @@ input[type=submit]{
 }
 .redes li{
     width: 47vw;
+    
 }
 .h2{
     width: 100vw;
@@ -281,10 +281,15 @@ input[type=submit]{
 }
 .botonRed{
     background-color: var(--colorTres);
-    border: 0;
     padding: 10px;
+    border-radius: 10px;
     color: var(--colorDos);
     width: 100%;
+}
+.botonRed:hover{
+    box-shadow: 0px 0px 10px 3px var(--colorCuatro);
+    border-radius: 50%;
+
 }
 .logoInferior{
     display: flex;
