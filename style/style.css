@@ -1,11 +1,12 @@
 :root{
     --border: 5px;
-    --colorUno: #85002B;
-    --colorDos: #5E0023;
-    --colorTres: #FFEC61;
-    --colorCuatro: #FF6666;
-    --colorCinco: #003C4C;    
+    --fondo: #7AFFC5;
+    --colorDos: #6847FF;
+    --colorTres: #FFEA47;
+    --colorCuatro: #FF6C54;
+    --colorCinco: #FFEC61;    
 }
+/* FEF993 */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,7 +17,7 @@ html{
 }
 body{
     font-family: Oswald sans-serif;
-    background-color: var(--colorUno);
+    background-color: var(--fondo);
     color: white;
     font-size: 1.6rem;
 }
@@ -60,7 +61,8 @@ main{
 .portada img{
     width: 100%;
     max-width: 800px;
-    border: 5px solid var(--colorTres);
+    border: 5px solid var(--colorTres);    
+    border: 2px solid var(--colorCuatro);
 }
 .precioDescuento{
     display: flex;
@@ -92,6 +94,7 @@ main{
 }
 .hombres h2{
     margin-top: 5px;
+    color: var(--colorDos);
 }
 .hombres header{
     display: flex;
@@ -119,6 +122,7 @@ main{
     margin: 10px 0 10px 0;
     border-radius: var(--border);
     background-color: var(--colorCinco);
+    border: 2px solid var(--colorCuatro);
 }
 .imgCamisetas img{
     width: 100%;
@@ -141,6 +145,7 @@ main{
 }
 .ultima h2{
     margin-top: 5px;
+    color: var(--colorDos);
 }
 .ultima header{
     display: flex;
@@ -175,7 +180,8 @@ main{
     background-color: var(--colorCinco);
     margin-bottom: 25px;
     padding-bottom: 0;
-    color: white;
+    color: var(--colorDos);
+    border: 2px solid var(--colorCuatro);
 }
 .varios img{
     height: 90%;
