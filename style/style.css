@@ -49,6 +49,21 @@ main{
     top: 17px;
     right: 30px;
 }
+.sendDesign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    margin-right: 10px;
+}
+.sendDesign input{
+    height: 40px;
+    width: 170px;
+    font-size: 1.6rem;
+    background-color: #FEF993;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
 .headerHeader .carrito{
     height: 30px;
 }
@@ -219,7 +234,7 @@ footer{
 }
 .cambioIdioma{
     background-color: var(--colorCinco);
-    color: white;
+    color: var(--colorDos);
     margin-left: 10px;
     padding: 10px 7px;
 }
@@ -255,7 +270,7 @@ footer{
     background-color: var(--colorTres);
     border: 0;
     padding: 10px;
-    color: black;
+    color: var(--colorDos);
     width: 100%;
 }
 .logoInferior{

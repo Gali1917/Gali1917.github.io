@@ -1,3 +1,7 @@
 .imgCamisetas li{
     width: 31vw;
 }
+.sendDesign input{
+    width: 250px;
+    font-size: 2rem;
+}
