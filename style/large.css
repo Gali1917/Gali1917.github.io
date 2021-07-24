@@ -3,16 +3,18 @@
 }
 body{
     margin-top: 50px;
+}
+main{
     max-width: 70vw;
     margin-left: 15vw;
 }
 .headerHeader{
-    margin-left: -15vw;
+    /* margin-left: -15vw; */
     margin-top: -50px;
 }
 .footer{
-    width: 142%;
-    margin-left: -15vw;
+    width: 100%;
+    /* margin-left: -15vw; */
 }
 .redes li{
     width: 25vw;
