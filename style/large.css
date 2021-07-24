@@ -3,6 +3,9 @@
 }
 body{
     margin-top: 50px;
+    background-image: url(../images/fondoImgL.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 main{
     max-width: 70vw;
