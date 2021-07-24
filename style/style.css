@@ -69,6 +69,10 @@ main{
 }
 input[type=submit]{
     font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 6px;
+
 }
 .headerHeader .carrito{
     height: 30px;
@@ -106,9 +110,11 @@ input[type=submit]{
     background-color: var(--colorCuatro);
     text-align: justify;
     font-size: 1.5rem;
-    padding: 6px 5px;
+    padding: 5px;
+    padding-top: 10px;
     margin-right: 5px;
     border-radius: var(--border);
+    color: white;
 }
 .hombres{
     width: 100%;
@@ -286,9 +292,10 @@ input[type=submit]{
     justify-content: flex-start;
     height: 30px;
     margin-right: 5px;
+    font-size: 1.6rem;
 }
 .logoInferior p{
-    padding: 6px;
+    padding: 3px;
 }
 .logoInferior img{
     height: 30px;
